@@ -11,17 +11,55 @@
     <script src="https://kit.fontawesome.com/243ca3f12b.js" crossorigin="anonymous"></script>
     <title>My web page</title>
     <link rel="stylesheet" href="style.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
 
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-xxl">
+      <a href="#intro" class="navbar-brand">
+          <span class="fw-bold text-secondary">
+             Anastasia Orlova
+          </span>
+      </a>
+           <!--toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" 
+      aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+  
+          <!--navbar links-->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                  <a href="#hero" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#projects" class="nav-link">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#about-me" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                  <a href="#testimonials" class="nav-link">Tesimonials</a>
+              </li>
+              <li class="nav-item ms-2 d-none d-md-inline">
+                  <a href="#contact-me" class="btn btn-secondary">Get in touch</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>    
 
-    <nav class = "space-between">
+
+    <!-- <nav class = "space-between">
         <h1 id="name">Anastasia Orlova</h1>
         <ul id="nav-bar">
           <li><a href="https://github.com/anastasia2804" target="_blank">GitHub</a></li>
           <li><a href="#contact-me">Contact me</a></li>
         </ul>
-      </nav>
+      </nav> -->
 
       <section id = "hero" class="container">
         <div class="column-template" id="avatar">
@@ -75,5 +113,7 @@
         </div>
         </div>
       </section>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
