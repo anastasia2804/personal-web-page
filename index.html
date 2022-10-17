@@ -17,11 +17,12 @@
 
 <nav class="navbar navbar-expand-md navbar-light">
   <div class="container-xxl">
-      <a href="#intro" class="navbar-brand">
+      <a href="#home" class="navbar-brand">
           <span class="fw-bold text-secondary">
              Anastasia Orlova
           </span>
       </a>
+
            <!--toggle button for mobile nav -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
       data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" 
@@ -33,86 +34,109 @@
       <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
           <ul class="navbar-nav">
               <li class="nav-item">
-                  <a href="#hero" class="nav-link">Home</a>
+                  <a href="#home" class="nav-link">Home</a>
               </li>
               <li class="nav-item">
-                  <a href="#projects" class="nav-link">Portfolio</a>
+                  <a href="#portfolio" class="nav-link">Portfolio</a>
               </li>
               <li class="nav-item">
-                  <a href="#about-me" class="nav-link">About</a>
+                  <a href="#about-me-under-construction" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                  <a href="#testimonials" class="nav-link">Tesimonials</a>
+                  <a href="#testimonials-under-construction" class="nav-link">Tesimonials</a>
               </li>
               <li class="nav-item ms-2 d-none d-md-inline">
                   <a href="#contact-me" class="btn btn-secondary">Get in touch</a>
               </li>
+              <li class="nav-item d-inline d-md-none">
+                <a href="#contact-me" class="nav-link">Contact me</a>
+            </li>
           </ul>
       </div>
   </div>
 </nav>    
 
-
-    <!-- <nav class = "space-between">
-        <h1 id="name">Anastasia Orlova</h1>
-        <ul id="nav-bar">
-          <li><a href="https://github.com/anastasia2804" target="_blank">GitHub</a></li>
-          <li><a href="#contact-me">Contact me</a></li>
-        </ul>
-      </nav> -->
-
-      <section id = "hero" class="container">
-        <div class="column-template" id="avatar">
-        <img src="images/avatar.jpg.jpg" alt=""/>
-        </div>
-        <div class="column-template" id="hero-info">
-            <h2>About me</h2>
-            <article>Born and raised in Russia, I have been living in the U.S. for the past 6 years. <br>
-            My profesional background includes logistics, transportation and sales, as well as business development. <br>
-          Curiosity for building things and bringing ideas to life led me to the Ironhack bootcamp, where I have learned the fundamentals and best practices of modern web development. <br>
-        Besides programming, my interests include partner dancing, physical and mental fitness, traveling and being out in the nature.
-        </article>
-        <a href="#contact-me">Contact me</a>
-        </div>
-      </section>
-
+    <section id="home">
+      <div class="container-lg">
+          
+          <div class="row justify-content-center align-items-center">
+              <div class="col-md-5 text-center">
+                <img class="img-fluid" src="images/avatar.jpg.jpg" alt="avatar"> 
+              </div>
+              <div class="col-md-5 text-center text-md-start ms-4">
+                  <h2>About Me</h2>
+                  <article class="lead my-4 text-muted">
+                    <p>Hi, welcome to my page! My name is Anastasia Orlova and I am a full-stack web developer.</p>
+                    <p>Born and raised in Russia, I have been living in the U.S. for the past 6 years.
+                      My profesional background includes logistics, transportation and sales, as well as business development.</p>
+                    <p>Curiosity for building things and bringing ideas to life led me to the Ironhack bootcamp, where I learned the fundamentals and best practices of modern web development.
+                      Besides programming, my interests include partner dancing, physical and mental fitness, traveling and being out in the nature.</p>
+                  </article>
+              <a href="#contact-me" class="btn btn-secondary bt-lg">Contact Me</a>
+          </div>
+          
+          </div>
+      </div>
+  </section>
 
 
-      <section id="portfolio">
-        <div class="column-template" class="project">
-            <h3>Project 1</h3>
-            <h4>Cherry Blossom Garden</h4>
-            <article>Pac-Man inspired game built with canvas. Collect the beads of wisdom, avoid distracting ghosts of the past. "Sometimes you win, sometimes you <i>learn</i>."</article>
-            <div class="styled-break"></div>
-        </div>
-        <div class="column-template" class="project">
-            <h3>Project 2</h3>
-            <h4>Title - 2</h4>
-            <article>Quisque lobortis eu eros sollicitudin aliquet.Quisque lobortis eu eros sollicitudin aliquet. Fusce sed egestas ante. Vivamus sit amet scelerisque dolor.</article>
-            <div class="styled-break"></div>
-        </div>
-        <div class="column-template" class="project">
-            <h3>Project 3</h3>
-            <h4>Title - 3</h4>
-            <article> Quisque lobortis eu eros sollicitudin aliquet. Quisque lobortis eu eros sollicitudin aliquet. Fusce sed egestas ante. Vivamus sit amet scelerisque dolor.</article>
-            <div class="styled-break"></div>
+  <section id="portfolio" class="bg-light mt-5 p-3">
+    <div class="container-lg">
+        <div class="text-center">
+            <h2>Portfolio</h2>
         </div>
 
-      </section>
+        <div class="row my-5 align-items-center justify-content-center">
+            <div class="col-8 col-lg-4 ">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Pura Vida</h4>
+                        <p class="card-text mx-5 text-muted ">Bohemian design and accesories store - eCommerce app build with MERN stack and styled with Bootstrap.</p>
+                        <a href="https://ephemeral-naiad-154e3f.netlify.app" class="btn btn-secondary bt-lg">View the project here</a>
+                    </div>
+                </div>
+            </div>
 
-      <section id="contact-info">
-        <h2><a name="contact-me">Contact me</a></h2>
-        <div class="contact-parent">
-        <div class="container-contact">
+            <div class="col-8 col-lg-4">
+              <div class="card border-0">
+                  <div class="card-body text-center py-4">
+                      <h4 class="card-title">Overwhelmedness-less</h4>
+                      <p class="card-text mx-5 text-muted ">Productivity app based on Eisenhower's matrix. Built with Express.js, MongoDB, Node.JS and handlebars.</p>
+                      <a href="https://overwhelmedness-less.herokuapp.com" class="btn btn-secondary bt-lg">View the project here</a>
+                  </div>
+              </div>
+          </div>
+
+            <div class="col-8 col-lg-4">
+                <div class="card border-0">
+                    <div class="card-body text-center py-4">
+                        <h4 class="card-title">Cherry Blossom Garden</h4>
+                        <p class="card-text mx-5 text-muted ">Pac-Man inspired game built with canvas. Collect the beads of wisdom, avoid distracting ghosts of the past.</p>
+                        <a href="https://anastasia2804.github.io/pacman-game" class="btn btn-secondary bt-lg">View the project here</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
+
+
+<section id="contact-me" class="mt-5 p-3">
+  <div class="container-lg">
+    <div class="text-center">
+        <h2>Contact me</h2>
         <div><b>Email: </b> anastasia2804@gmail.com</div>
         <div><b>Location: </b>Miami, FL</div>
+        <div class="row my-5 align-items-center justify-content-center">
+          <div class="col-5"><a href="https://www.linkedin.com/in/anastasiaorlova1/">LinkedIn</a></div>
+          <div class="col-5"><a href="https://docs.google.com/document/d/1juoWamhAKfP4faZujjXpTrIkSZkK80AmCyHgLIYC2Ig/edit?usp=sharing">Resume</a></div>
+          <div class="col-5"><a href="https://github.com/anastasia2804" target="_blank">GitHub</a></div>
         </div>
-        <div class="container-contact">
-        <div><b>LinkedIn</b></div>
-        <div class="git-hub-link"><a href="https://github.com/anastasia2804" target="_blank"><b>GitHub</b></a></div>
-        </div>
-        </div>
-      </section>
+    </div>
+  </div>
+</section>
 
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
