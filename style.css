@@ -2,6 +2,11 @@ h1, h2, h3 {
     color: #A5233F
 }
 
+body {
+    position: relative; 
+    padding-top: 4rem;
+}
+
 /* body {
     background-color: #A4C1ED;
     font-family: "Roboto", sans-serif;
